@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 
-const YouTubeVideo = ({ videoId }) => {
+const YouTubeVideo = () => {
     const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {

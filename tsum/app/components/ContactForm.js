@@ -32,7 +32,7 @@ export default function ContactForm() {
   if (submitted) {
     return (
       <div className="text-green-600 font-semibold">
-        Thank you for your message. We'll get back to you soon!
+        Thank you for your message. We&apos;ll get back to you soon!
       </div>
     )
   }
@@ -42,7 +42,7 @@ export default function ContactForm() {
       <p className="mb-6 text-center text-white">
           Have a question or want to get in touch?
           <br />
-          Fill out the form below and we'll get back to you as soon as possible.
+          Fill out the form below and we&apos;ll get back to you as soon as possible.
         </p>
       <div className="mb-4">
         <label htmlFor="name" className="block mb-2 font-semibold text-white">Name</label>

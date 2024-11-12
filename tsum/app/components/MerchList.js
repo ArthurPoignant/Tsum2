@@ -1,13 +1,13 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { useSession } from 'next-auth/react';
-import MerchItem from './MerchItem';
-import AddMerchModal from './AddMerchModal';
+/* import { useState, useEffect } from 'react'; */
+/* import { useSession } from 'next-auth/react'; */
+/* import MerchItem from './MerchItem';
+import AddMerchModal from './AddMerchModal'; */
 
 export default function MerchList() {
-  const { data: session, status } = useSession();
-  const [merchItems, setMerchItems] = useState([]);
+  /* const { data: session, status } = useSession(); */
+  /* const [merchItems, setMerchItems] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
@@ -38,11 +38,11 @@ export default function MerchList() {
 
   if (status === "unauthenticated") {
     return <p>Access Denied</p>;
-  }
+  } */
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {merchItems.map((item) => (
           <MerchItem key={item.id} item={item} />
         ))}
@@ -61,7 +61,7 @@ export default function MerchList() {
             onAddMerch={handleAddMerch}
           />
         </>
-      )}
+      )} */}
     </>
   );
 }
